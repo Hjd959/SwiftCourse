@@ -5,7 +5,7 @@
 //  Created by عبدالوهاب العنزي on 12/06/2020.
 //  Copyright © 2020 Abdulwahab. All rights reserved.
 //
-
+//
 import UIKit
 
 class CodeTableViewController: UITableViewController {
@@ -21,6 +21,7 @@ class CodeTableViewController: UITableViewController {
 
    
 // How many Rows ?
+    //
     // عدد الصطور
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
