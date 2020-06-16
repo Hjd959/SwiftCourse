@@ -16,6 +16,11 @@
 		A28B293B24843CEF00B47DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28B293924843CEF00B47DB6 /* LaunchScreen.storyboard */; };
 		A2AF0E8724911B7C0090F53B /* passwordViled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF0E8624911B7C0090F53B /* passwordViled.swift */; };
 		A2AF0E8A249148230090F53B /* persentAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF0E89249148230090F53B /* persentAge.swift */; };
+		A2E254BE2493C3D9008FA299 /* CodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E254BD2493C3D9008FA299 /* CodeTableViewController.swift */; };
+		A2E254C02493CF57008FA299 /* ForTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E254BF2493CF57008FA299 /* ForTabelViewController.swift */; };
+		A2E254C324955FCD008FA299 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E254C224955FCD008FA299 /* Classes.swift */; };
+		A2E254C524956233008FA299 /* Classes2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E254C424956233008FA299 /* Classes2.swift */; };
+		A2E254C724956286008FA299 /* Term.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E254C624956286008FA299 /* Term.swift */; };
 		A2F1741424854DF300B592F6 /* HomeTow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1741324854DF300B592F6 /* HomeTow.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +36,11 @@
 		A28B293C24843CEF00B47DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2AF0E8624911B7C0090F53B /* passwordViled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordViled.swift; sourceTree = "<group>"; };
 		A2AF0E89249148230090F53B /* persentAge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persentAge.swift; sourceTree = "<group>"; };
+		A2E254BD2493C3D9008FA299 /* CodeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTableViewController.swift; sourceTree = "<group>"; };
+		A2E254BF2493CF57008FA299 /* ForTabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTabelViewController.swift; sourceTree = "<group>"; };
+		A2E254C224955FCD008FA299 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		A2E254C424956233008FA299 /* Classes2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes2.swift; sourceTree = "<group>"; };
+		A2E254C624956286008FA299 /* Term.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Term.swift; sourceTree = "<group>"; };
 		A2F1741324854DF300B592F6 /* HomeTow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +90,8 @@
 		A28B292D24843CEE00B47DB6 /* All_XCODE */ = {
 			isa = PBXGroup;
 			children = (
+				A2E254C124955FAB008FA299 /* Using Class in Your App */,
+				A2E254BC2493C3B3008FA299 /* TableView */,
 				A2AF0E88249147F40090F53B /* PercentAge */,
 				A2AF0E8524911B4E0090F53B /* passwordVield */,
 				A22FF26524844B8C00DF8931 /* Counting */,
@@ -109,6 +121,25 @@
 				A2AF0E89249148230090F53B /* persentAge.swift */,
 			);
 			path = PercentAge;
+			sourceTree = "<group>";
+		};
+		A2E254BC2493C3B3008FA299 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				A2E254BD2493C3D9008FA299 /* CodeTableViewController.swift */,
+				A2E254BF2493CF57008FA299 /* ForTabelViewController.swift */,
+				A2E254C624956286008FA299 /* Term.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		A2E254C124955FAB008FA299 /* Using Class in Your App */ = {
+			isa = PBXGroup;
+			children = (
+				A2E254C224955FCD008FA299 /* Classes.swift */,
+				A2E254C424956233008FA299 /* Classes2.swift */,
+			);
+			path = "Using Class in Your App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,10 +215,15 @@
 			files = (
 				A22FF26724844BA500DF8931 /* count.swift in Sources */,
 				A28B292F24843CEE00B47DB6 /* AppDelegate.swift in Sources */,
+				A2E254BE2493C3D9008FA299 /* CodeTableViewController.swift in Sources */,
 				A28B293124843CEE00B47DB6 /* SceneDelegate.swift in Sources */,
+				A2E254C524956233008FA299 /* Classes2.swift in Sources */,
+				A2E254C724956286008FA299 /* Term.swift in Sources */,
 				A2345C3F248442D7007E8901 /* Labels.swift in Sources */,
+				A2E254C02493CF57008FA299 /* ForTabelViewController.swift in Sources */,
 				A2AF0E8A249148230090F53B /* persentAge.swift in Sources */,
 				A2F1741424854DF300B592F6 /* HomeTow.swift in Sources */,
+				A2E254C324955FCD008FA299 /* Classes.swift in Sources */,
 				A2AF0E8724911B7C0090F53B /* passwordViled.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

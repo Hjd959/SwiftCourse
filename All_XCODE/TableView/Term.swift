@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class Term
+{
+    var name = ""
+    var defintion = ""
+    var isType = false
+}
